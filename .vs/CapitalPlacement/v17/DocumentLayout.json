@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|solutionrelative:capitalplacement.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|solutionrelative:capitalplacement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|solutionrelative:capitalplacement.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|solutionrelative:capitalplacement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|solutionrelative:capitalplacement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC3552CD-7FD5-44B7-8501-02F309CA148F}|CapitalPlacement.Api\\CapitalPlacement.Api.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.api\\controllers\\programmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.application\\dtos\\programmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|solutionrelative:capitalplacement.application\\dtos\\programmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|solutionrelative:capitalplacement.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAF2239E-D687-479C-BED3-1662DC163A86}|CapitalPlacement.Application\\CapitalPlacement.Application.csproj|c:\\users\\user\\desktop\\capitalplacement\\capitalplacement.application\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,32 +138,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CapitalPlacement.Api",
+              "DocumentIndex": 9,
+              "Title": "CapitalPlacement.Api.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\CapitalPlacement.Api.csproj",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\CapitalPlacement.Api.csproj",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\CapitalPlacement.Api.csproj",
               "RelativeToolTip": "CapitalPlacement.Api\\CapitalPlacement.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-15T15:21:08.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:21:08.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CandidateApplicationController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\Controllers\\CandidateApplicationController.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\Controllers\\CandidateApplicationController.cs",
@@ -171,12 +162,11 @@
               "RelativeToolTip": "CapitalPlacement.Api\\Controllers\\CandidateApplicationController.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAAwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:30:44.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:30:44.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\Properties\\launchSettings.json",
@@ -184,12 +174,11 @@
               "RelativeToolTip": "CapitalPlacement.Api\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T14:43:58.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:43:58.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\Controllers\\BaseController.cs",
@@ -197,12 +186,11 @@
               "RelativeToolTip": "CapitalPlacement.Api\\Controllers\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:30:40.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:30:40.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\Program.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\Program.cs",
@@ -210,12 +198,11 @@
               "RelativeToolTip": "CapitalPlacement.Api\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:27:17.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:27:17.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\GlobalUsing.cs",
@@ -228,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProgrammeController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\Controllers\\ProgrammeController.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\Controllers\\ProgrammeController.cs",
@@ -236,12 +223,11 @@
               "RelativeToolTip": "CapitalPlacement.Api\\Controllers\\ProgrammeController.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAkwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:30:49.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:30:49.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Api\\appsettings.json",
               "RelativeDocumentMoniker": "CapitalPlacement.Api\\appsettings.json",
@@ -254,46 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CandidateApplicationService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
-              "RelativeDocumentMoniker": "CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
-              "RelativeToolTip": "CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:17:16.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CandidateApplicationDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
-              "RelativeDocumentMoniker": "CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
-              "RelativeToolTip": "CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:46:23.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProgrammeDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
-              "RelativeDocumentMoniker": "CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
-              "RelativeToolTip": "CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:19:32.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "CapitalPlacement.Application\\GlobalUsing.cs",
@@ -305,6 +252,50 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidateApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
+              "RelativeDocumentMoniker": "CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
+              "RelativeToolTip": "CapitalPlacement.Application\\Services\\CandidateApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:17:16.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CandidateApplicationDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
+              "RelativeDocumentMoniker": "CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
+              "RelativeToolTip": "CapitalPlacement.Application\\DTOS\\CandidateApplicationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:46:23.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProgrammeDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
+              "RelativeDocumentMoniker": "CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\CapitalPlacement\\CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
+              "RelativeToolTip": "CapitalPlacement.Application\\DTOS\\ProgrammeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:19:32.136Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "RegularConstants.cs",
@@ -314,8 +305,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Features\\Constants\\RegularConstants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:47:15.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:47:15.917Z"
             },
             {
               "$type": "Document",
@@ -327,8 +317,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Interfaces\\Application\\ICandidateApplicationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:19:06.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:19:06.896Z"
             },
             {
               "$type": "Document",
@@ -340,8 +329,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Interfaces\\Application\\IProgrammeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:19:04.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:19:04.817Z"
             },
             {
               "$type": "Document",
@@ -353,8 +341,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Responses\\BaseResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:49:35.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:49:35.588Z"
             },
             {
               "$type": "Document",
@@ -366,8 +353,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Services\\ProgrammeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:16:08.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:16:08.375Z"
             },
             {
               "$type": "Document",
@@ -379,8 +365,7 @@
               "RelativeToolTip": "CapitalPlacement.Domain\\Entities\\Programme.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:15:33.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:15:33.585Z"
             },
             {
               "$type": "Document",
@@ -392,8 +377,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Features\\Constants\\ResponseCodes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:47:50.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:47:50.299Z"
             },
             {
               "$type": "Document",
@@ -405,8 +389,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Extensions\\Extension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:46:46.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:46:46.165Z"
             },
             {
               "$type": "Document",
@@ -418,8 +401,7 @@
               "RelativeToolTip": "CapitalPlacement.Domain\\Entities\\CandidateApplication.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:15:27.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:15:27.449Z"
             },
             {
               "$type": "Document",
@@ -431,8 +413,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\Configurations\\UnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:11:50.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:11:50.058Z"
             },
             {
               "$type": "Document",
@@ -444,8 +425,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\Extensions\\Persistence\\Extension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:09:39.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:09:39.355Z"
             },
             {
               "$type": "Document",
@@ -457,8 +437,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Interfaces\\Persistence\\IAsyncRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:49:12.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:49:12.043Z"
             },
             {
               "$type": "Document",
@@ -470,8 +449,7 @@
               "RelativeToolTip": "CapitalPlacement.Application\\Interfaces\\Persistence\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:49:19.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:49:19.852Z"
             },
             {
               "$type": "Document",
@@ -483,8 +461,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\Configurations\\DataContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:56:01.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:56:01.48Z"
             },
             {
               "$type": "Document",
@@ -496,8 +473,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\Extensions\\Repository\\Extension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:09:12.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:09:12.14Z"
             },
             {
               "$type": "Document",
@@ -509,8 +485,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\Repositories\\AsyncRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:08:36.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:08:36.805Z"
             },
             {
               "$type": "Document",
@@ -522,8 +497,7 @@
               "RelativeToolTip": "CapitalPlacement.Persistence\\GlobalUsing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAIwA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:08:11.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:08:11.765Z"
             },
             {
               "$type": "Document",
@@ -535,8 +509,7 @@
               "RelativeToolTip": "CapitalPlacement.Infrastructure\\GlobalUsing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:54:48.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:54:48.641Z"
             },
             {
               "$type": "Document",
@@ -548,8 +521,7 @@
               "RelativeToolTip": "CapitalPlacement.Domain\\GlobalUsing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:54:21.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:54:21.225Z"
             },
             {
               "$type": "Document",
@@ -561,8 +533,7 @@
               "RelativeToolTip": "CapitalPlacement.Api\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T14:31:38.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:31:38.864Z"
             }
           ]
         }
