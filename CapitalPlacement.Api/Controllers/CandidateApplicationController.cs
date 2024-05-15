@@ -26,7 +26,7 @@ public class CandidateApplicationController : BaseController
         else if (response.ResponseCode == ResponseCodes.DUPLICATE_RESOURCE)
             return BadRequest(response);
         else
-            return StatusCode(500);
+            return StatusCode(500, response);
 
     }
 

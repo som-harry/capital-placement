@@ -26,7 +26,8 @@ public class ProgrammeController : BaseController
         else if(response.ResponseCode == ResponseCodes.DUPLICATE_RESOURCE)      
             return BadRequest(response);
         else
-        return StatusCode(500);
+        return StatusCode(500,response);
+        
 
     }
     [HttpPost("update-programme")]
@@ -44,7 +45,7 @@ public class ProgrammeController : BaseController
         else if (response.ResponseCode == ResponseCodes.NOT_FOUND)
             return NotFound(response);
         else
-            return StatusCode(500);
+            return StatusCode(500,response);
 
     }
     [HttpPost("delete-programme")]
@@ -62,7 +63,7 @@ public class ProgrammeController : BaseController
         else if (response.ResponseCode == ResponseCodes.NOT_FOUND)
             return NotFound(response);
         else
-            return StatusCode(500);
+            return StatusCode(500, response);
 
     }
     #endregion
