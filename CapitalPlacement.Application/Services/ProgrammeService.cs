@@ -22,15 +22,15 @@ public  class ProgrammeService : IProgrammeService
             var mappedRequest = applicationFormDto.Adapt<Programme>();
             var existingProgram = await _asyncRepository.SingleOrDefaultAsync(x => !x.IsDeleted && x.ProgramTitle == applicationFormDto.ProgramTitle.Trim());
             if(existingProgram != null)
-                return new BaseResponse<Guid>($"Program with title already exist, please a different program title", ResponseCodes.DUPLICATE_RESOURCE);
+                return new BaseResponse<Guid>($"Program with title already exists, please choose a different program title", ResponseCodes.DUPLICATE_RESOURCE);
 
             await _asyncRepository.Add(mappedRequest);
             var itemsCreated = await _unitOfWork.CommitChangesAsync();
             if(itemsCreated <= 0)  //TODO: log failure
-                return new BaseResponse<Guid>("Failed to create response",ResponseCodes.SERVER_ERROR);
+                return new BaseResponse<Guid>("Failed to save program response",ResponseCodes.SERVER_ERROR);
 
             _logger.LogInformation("successfully added applicate to the table");
-            return new BaseResponse<Guid>($"successfully created ", mappedRequest.Id, ResponseCodes.CREATED);
+            return new BaseResponse<Guid>($"successfully saved ", mappedRequest.Id, ResponseCodes.CREATED);
         }
         catch (Exception ex)
         {
@@ -55,7 +55,7 @@ public  class ProgrammeService : IProgrammeService
             await _unitOfWork.CommitAsync();
             _logger.LogInformation("successfully added applicate to the table");
             var mappedResponse= mappedRequest.Adapt<UpdatedProgrammmeDto>();
-            return new BaseResponse<UpdatedProgrammmeDto>($"successfully created ", mappedResponse, ResponseCodes.UPDATED);
+            return new BaseResponse<UpdatedProgrammmeDto>($"successfully updated ", mappedResponse, ResponseCodes.UPDATED);
         }
         catch (Exception ex)
         {
@@ -152,7 +152,7 @@ public  class ProgrammeService : IProgrammeService
         var getApplicateDetail = await _asyncRepository.GetById(applicationForm.Id);
         if(getApplicateDetail == null)
         {
-            return (false, "record was not found in the database");
+            return (false, "No record was found in the database");
         }
         return (true, "record found in the database");
     }

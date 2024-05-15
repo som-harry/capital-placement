@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapitalPlacement.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b949e797dd04f9b68a884015b4092fc32279113")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64110ec7e70ba9cd61862a274b5c446de1b3b1d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapitalPlacement.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapitalPlacement.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

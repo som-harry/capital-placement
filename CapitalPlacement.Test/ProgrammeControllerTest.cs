@@ -4,6 +4,7 @@ using CapitalReplacement.Api.Controllers;
 using CapitalReplacement.Application.Features.Constants;
 using CapitalReplacement.Application.Responses;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Cosmos.Serialization.HybridRow;
 using Microsoft.Extensions.Logging;
 using Moq;
 using System;
@@ -74,5 +75,72 @@ namespace CapitalPlacement.Test
             Assert.Equal(500, objectResult.StatusCode);
             
         }
+
+        [Fact]
+        public async Task GetAllProgrammes_Success_ReturnsOk()
+        {
+            // Arrange
+            var pageNumber = 1;
+            var pageSize = 50;
+            var returnResponse = new List<UpdatedProgrammmeDto>();
+            var response = new BaseResponse<IEnumerable<UpdatedProgrammmeDto>>
+            {
+
+                Data = returnResponse,
+                ResponseCode = ResponseCodes.SUCCESS
+            };
+            _programmeServiceMock.Setup(service => service.GetAllProgrammes(pageNumber, pageSize)).ReturnsAsync(response);
+
+            // Act
+            var result = await _controller.GetAllProgrammes(pageNumber, pageSize);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var actualResponse = Assert.IsType<BaseResponse<IEnumerable<UpdatedProgrammmeDto>>>(okResult.Value);
+            Assert.Equal(ResponseCodes.SUCCESS, actualResponse.ResponseCode);
+        }
+
+        [Fact]
+        public async Task GetAllProgrammes_NotFound_ReturnsNotFound()
+        {
+            // Arrange
+            var pageNumber = 1;
+            var pageSize = 50;
+            var response = new BaseResponse<IEnumerable<UpdatedProgrammmeDto>>
+            {
+                ResponseCode = ResponseCodes.NOT_FOUND,
+                Message = "Programmes not found"
+            };
+            _programmeServiceMock.Setup(service => service.GetAllProgrammes(pageNumber, pageSize)).ReturnsAsync(response);
+
+            // Act
+            var result = await _controller.GetAllProgrammes(pageNumber, pageSize);
+
+            // Assert
+            Assert.IsType<NotFoundObjectResult>(result);
+        }
+
+        [Fact]
+        public async Task GetAllProgrammes_InternalServerError_ReturnsInternalServerError()
+        {
+            // Arrange
+            var pageNumber = 1;
+            var pageSize = 50;
+            var response = new BaseResponse<IEnumerable<UpdatedProgrammmeDto>>
+            {
+                ResponseCode = ResponseCodes.SERVER_ERROR,
+                Message = "Internal server error occurred"
+            };
+            _programmeServiceMock.Setup(service => service.GetAllProgrammes(pageNumber, pageSize)).ReturnsAsync(response);
+
+            // Act
+            var result = await _controller.GetAllProgrammes(pageNumber, pageSize);
+
+            // Assert
+            Assert.IsType<ObjectResult>(result);
+            var objectResult = (ObjectResult)result;
+            Assert.Equal(500, objectResult.StatusCode); 
+        }
+
     }
 }
