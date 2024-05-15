@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "http": {
+    "CapitalPlacement.Development": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
@@ -19,7 +19,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "https": {
+    "CapitalPlacement.Production": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

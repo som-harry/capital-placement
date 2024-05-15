@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\bin\Debug\net8.0\CapitalPlacement.Domain.deps.json
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\bin\Debug\net8.0\CapitalPlacement.Domain.runtimeconfig.json
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\bin\Debug\net8.0\CapitalPlacement.Domain.dll
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\bin\Debug\net8.0\CapitalPlacement.Domain.pdb
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.AssemblyInfo.cs
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.sourcelink.json
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.dll
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\refint\CapitalPlacement.Domain.dll
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.pdb
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\CapitalPlacement.Domain.genruntimeconfig.cache
+C:\Users\USER\Desktop\CapitalPlacement\CapitalPlacement.Domain\obj\Debug\net8.0\ref\CapitalPlacement.Domain.dll

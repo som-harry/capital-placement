@@ -9,5 +9,6 @@ namespace CapitalReplacement.Application.Features.Constants
     public class RegularConstants
     {
         public const string Api = "api";
+        public const string CapitalApplication = "CapitalApplication";
     }
 }
